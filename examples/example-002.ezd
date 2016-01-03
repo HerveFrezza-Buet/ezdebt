@@ -1,0 +1,25 @@
+# On déclare le pret "Immo"
+Pret Immo 100000 4.5 
+
+Assure Immo 2.5 pour 10000 a 120 au mois 1
+Contracte Immo au mois 1
+Rembourse Immo sur 120 mois depuis 1
+
+# Au mois 20, on choisit de payer des traites de 1500, 
+# jusqu'à nouvel ordre.
+Traite Immo de 1500 depuis 20
+
+# Au mois 30, on verse un paiement ponctuel de 5000
+Anticipe Immo de 5000 au mois 30
+
+# Au mois 40, on stabilise la dette,
+# jusqu'à nouvel ordre.
+Stabilise Immo au mois 40
+
+# Au mois 50, on décide de rembourser la dette restante
+# en 20 mois.
+Rembourse Immo sur 20 mois depuis 50
+
+
+
+

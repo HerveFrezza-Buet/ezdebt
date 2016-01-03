@@ -1,0 +1,456 @@
+
+#section {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: #000000;
+    background-color: #DDDDFF;
+}
+
+#listeprets {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-family: arial;
+}
+
+#titlepdt {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000000;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#prets {
+}
+
+
+#nompret {
+    text-align: left;
+    color: #0000FF;
+}
+
+#montantpret {
+    padding-left: 50px;
+    text-align: right;
+}
+
+#tauxpret {
+    padding-left: 20px;
+    text-align: right;
+}
+
+#listeplacements {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-family: arial;
+}
+
+#placements {
+}
+
+#nomplacement {
+    text-align: left;
+    color: #0000FF;
+}
+
+#tauxplacement {
+    padding-left: 20px;
+    text-align: right;
+}
+
+#historique {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-family: arial;
+}
+
+#moishistorique {
+    margin-top: 5px;
+    width: 800px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000AA;
+    background-color: #EEEEFF;
+}
+
+#historiquetitre {
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    background-color: #CCCCFF;
+}
+
+#historiqueitem {
+    margin: 5px;
+}
+
+#time {
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-family: arial;
+}
+
+#timeblock {
+    margin-top: 20px;
+}
+
+#timetitlebar {
+    background-color: #333355;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+
+#timepretmoispair {
+    background-color: #BBBBBB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+    width: 40px;
+}
+
+#timepretmoisimpair {
+    background-color: #DDDDDD;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretdettepair {
+    background-color: #ACACDB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretdetteimpair {
+    background-color: #BCBCEB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretversementpair {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretversementimpair {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretinteretpair {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretinteretimpair {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretfraispair {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timepretfraisimpair {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeprettotalpair {
+    background-color: #d99bd5;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeprettotalimpair {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementmoispair {
+    background-color: #BBBBBB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+    width: 40px;
+}
+
+#timeplacementmoisimpair {
+    background-color: #DDDDDD;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementcapitalpair {
+    background-color: #ACACDB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementcapitalimpair {
+    background-color: #BCBCEB;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementvirementpair {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementvirementimpair {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementfraispair {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#timeplacementfraisimpair {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilan {
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-family: arial;
+}
+
+#bilanblock {
+    margin-top: 20px;
+}
+
+#bilantitre {
+    background-color: #333355;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+
+
+
+#bilanpretnom {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: left;
+}
+
+#bilanpretinterets {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanpretfrais {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanpretcouttotal {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanpretmontant {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanpretcoutrelatif {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanprettotalnom {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: left;
+}
+
+#bilanprettotalmontant {
+    background-color: #d99bd5;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanprettotalinterets {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanprettotalfrais {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanprettotalcouttotal {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanprettotalcoutrelatif {
+    background-color: #d99bd5;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+
+
+#bilanplacementnom {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: left;
+}
+
+#bilanplacementinterets {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementfrais {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementgaintotal {
+    background-color: #CCCCFF;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementvirements {
+    background-color: #BBBBEE;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementtotalnom {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: left;
+}
+
+#bilanplacementtotalvirements {
+    background-color: #d99bd5;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementtotalinterets {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementtotalfrais {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanplacementtotalgaintotal {
+    background-color: #eba8e7;
+    padding: 5px;
+    color: #000000;
+    text-align: right;
+}
+
+#bilanpositif {
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: #000000;
+    background-color: #AAFFAA;
+}
+
+#bilannegatif {
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: arial;
+    color: #000000;
+    background-color: #FFAAAA;
+}

@@ -1,0 +1,45 @@
+# Ce fichier résume la syntaxe de toutes les commandes.
+
+#####################################
+#                                   #
+# Pour tous les produits financiers #
+#                                   #
+#####################################
+
+Taux       Immo     3 au mois 12               # Redéfinition du taux du produit.
+FraisFixe  Immo     1000 au mois 30            # Déclaration de frais ponctuels fixes.
+Cloture    Epargnys au mois 25                 # Clôture du produit (utile pour les placements...
+	                                       # ... si la simulation ne comporte pas de...
+					       # ... prêts.
+
+
+##################
+#                #
+# Pour les prêts #
+#                #
+##################
+
+Pret       Immo 10000 4.5                      # Déclaration d'un prêt.
+Assure     Immo 32 pour 10000 a 120 au mois 1  # (Re)Assurance d'un prêt. Ici, 0.32% par an.
+Contracte  Immo au mois 1                      # Activation d'un prêt.
+Rembourse  Immo sur 120 mois depuis 1          # Remboursement du prêt... 
+                                               # ... sur une durée définie.
+Traite     Immo de 1500 depuis 20              # Remboursement mensuel défini.
+Anticipe   Immo de 5000 au mois 30             # Versement d'une somme ponctuelle.
+Stabilise  Immo au mois 40                     # Remboursements qui maintiennent...
+                                               # ... la dette constante.
+Solde      Immo au mois 30                     # Versement ponctuel qui solde le prêt.
+FraisDette Immo 3 au mois 30                   # Déclarations de frais ponctuels...
+                                               # ... qui sont un pourcentage du...
+                                               # ... capital restant dû.
+
+
+#######################
+#                     #
+# Pour les placements #
+#                     #
+#######################
+
+Placement  Epargnys 4.5                        # Déclation d'un placement
+Place      Epargnys 10000 au mois 1            # Virement (positif ou négatif)
+FraisPlace Epargnys 2.5 au mois 1              # Frais relatifs au dernier virement.

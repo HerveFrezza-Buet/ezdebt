@@ -1,0 +1,31 @@
+
+# Installation onto a workspace.
+
+Use (or create) a directory somewhere on your disk, that will be used
+ as a workspace. Let us name here /home/myself/ezdebt-workspace that
+ directory. We suppose in the following that it has been created
+ (mkdir) previously.
+
+Type the following to put the newly compiled version of ezdebt in that
+workspace.
+
+make WORKSPACE=/home/myself/ezdebt-workspace install
+
+# Use of ezdebt
+
+Go into your workspace
+
+cd /home/myself/ezdebt-workspace
+
+Create a .ezd file with a text editor, discribing a simulation. See
+the examples provided for that purpose, as well as the vocabulary.ezd
+file in the doc directory. Let us suppose in the following that you
+have created a simu.ezd file.
+
+Now, run the simulation
+
+./ezdebt simu.ezd
+
+And view the simu.html file with some web browser (firefox, ...)
+
+

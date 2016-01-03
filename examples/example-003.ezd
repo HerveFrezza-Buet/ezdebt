@@ -1,0 +1,39 @@
+# Définissons le prêt "Immo" sur 10 ans.
+Pret      Immo1 100000 4.5
+Assure    Immo1 2.5 pour 10000 a 120 au mois 1  
+Contracte Immo1 au mois 1
+Rembourse Immo1 sur 120 mois depuis 1
+
+# Au mois 12, on renégocie le taux du prêt à 3%. Il y a des frais.  En
+# l'occurrence, il s'agit de frais proportionnels (ici 2.5%) au
+# montant restant dû, c'est donc la commande "FraisDette" qu'il faut
+# utiliser.  Attention ! On déclare les frais d'abord, puis
+# l'opération ensuite, c'est-à-dire qu'on paie le service, puis il
+# prend effet. Pour certaines opérations, ça peut changer les calculs.
+
+FraisDette Immo1 2.5 au mois 12
+Taux       Immo1 3 au mois 12
+
+# Au mois 24, on renégocie l'assurrance. Les frais seront supposés
+# fixes, pour un montant de 1000. On ne change pas les mensualités
+# définies au départ.
+
+FraisFixe Immo1 1000 au mois 24
+Assure    Immo1 1 pour 10000 a 120 au mois 24  
+
+# On va simuler l'arrêt du prêt "Immo1", et le démarrage d'un autre. 
+# Il y a des frais...
+FraisDette Immo1 3 au mois 30                     # Les frais de soldage
+FraisFixe  Immo1 1500 au mois 30                  # Des frais divers
+Solde      Immo1 au mois 30                       # Là, on solde.
+Pret       Immo2 50000 2.3                        # On définit un nouveau prêt
+Assure     Immo2 2.5 pour 10000 a 120 au mois 30 
+Contracte  Immo2 au mois 30
+FraisFixe  Immo2 1000 au mois 30                  # Des frais d'ouverture
+Rembourse  Immo2 sur 24 mois depuis 30
+
+
+
+
+
+

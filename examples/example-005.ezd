@@ -1,0 +1,46 @@
+
+Pret PEL             9000  4.60
+Pret Complement    100000  5.25
+
+Contracte PEL           au mois 1
+Contracte Complement    au mois 1
+
+Assure    PEL           32 pour 10000 a 200 au mois 1
+Assure    Complement    32 pour 10000 a 200 au mois 1
+
+Rembourse PEL        sur 180 mois depuis 1
+Rembourse Complement sur 240 mois depuis 1
+
+# Au mois 100, on renégocie le taux du prêt à 3.3%. 
+# Il y a des frais de 1% du capital restant dû.
+FraisDette Complement 1   au mois 100
+Taux       Complement 3.3 au mois 100
+
+# Au mois 110, on touche 50000 euros, que l'on place à 4.5%.
+# Il y a des frais d'entrée de 1.05%.
+# sur un placement "Fructis"
+Placement  Fructis 4.5
+Place      Fructis 50000 au mois 110
+FraisPlace Fructis  1.05 au mois 110
+
+# Au mois 12O on place 10000 euros sur un "LivretA" à 1.2%
+# sans frais.
+Placement  LivretA 1.2
+Place      LivretA 10000 au mois 120
+
+# Au mois 150, on verse 1000 sur "Complement". Cela coûte 10.
+# On a pris ces 1000 sur Fructis, avec un cout de 1.5%
+Place      Fructis      -1000 au mois 150
+FraisPlace Fructis        1.5 au mois 150
+Anticipe   Complement de 1000 au mois 150
+FraisFixe  Complement 10      au mois 150
+
+# Au mois 200, on passe à 500 les traites sur "Complement", sans frais.
+Traite Complement de 500 depuis 200
+
+# Au mois 205, on solde "Complement" avec un couût de 3% du capîtal restant dû.
+FraisDette Complement 3 au mois 205
+Solde      Complement   au mois 205
+
+
+

@@ -1,0 +1,28 @@
+# Définissons un placement "Epargnys" a 4.5% annuel
+Placement Epargnys 4.5
+
+# On place 10000 sur "Epargnys" au mois 1
+Place Epargnys 10000 au mois 1
+
+# Calcule des frais relatifs au montant 
+# (en valeur absolue) sur la dernière opération de placement.
+# Ces frais sont ici de 2.5% du dernier montant de placement.
+# Ils seront effectifs au mois 2.
+FraisPlace Epargnys 2.5 au mois 2
+
+# On retire de 1500 au mois 15, avec un coût de 1%
+Place Epargnys -1500 au mois 15
+FraisPlace Epargnys 1 au mois 15
+
+# On termine la simulation de ce placement, car sinon, le temps de
+# simulation est infini. Si des prêts sont simulé, la fin de tous
+# les prêts provoque l'arrêt de la simulation, et cette commande 
+# nest pas nécessaire.
+Cloture Epargnys au mois 25
+
+
+
+
+
+
+
